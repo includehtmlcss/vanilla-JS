@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modal Window</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<div class="nav-center">
+			<div class="nav-header">
+				<img src="images/logo-final.svg" class="logo">
+				<button class="nav-toggle">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+			<ul class="links">
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="index.html">portfolio</a>
+				</li>
+				<li>
+					<a href="index.html">about</a>
+				</li>
+				<li>
+					<a href="index.html">contact</a>
+				</li>
+			</ul>
+			<ul class="social-icons">
+				<li>
+					<a href="https://facebook.com" target="_blank">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://behance.net" target="_blank">
+						<i class="fab fa-behance"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://youtube.com" target="_blank">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://instagram.com" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header class="hero">
+		<div class="banner">
+			<div class="img-container">
+				<img id="person-img" src="images/IMG_20201228_101311-edit1.jpg">
+			</div>
+			<h1>Hey, I am <span style="color: #ffcb29; text-shadow: 2px 2px 10px rgba(0,0,0,0.7);">Harsh!</span></h1>
+			<button class="btn modal-btn">
+				know more
+			</button>
+		</div>
+	</header>
+	<div class="modal-overlay">
+		<div class="modal-container">
+			<h3>about me!</h3>
+			<p style="padding: 0 3rem; text-align: justify; line-height: 1.5;">A highly skilled and meticulous graphic designer and video editor/producer with
+				an experience of more than 3 years in designing the most refined artwork. Entirely
+				devoted towards pushing my limits and sharpening my existing skill set. Exploring
+				and gaining insights about every piece of information in the multimedia industry is
+				my passion.</p>
+			<button class="close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+	</div>
+	<script src="responsiveNav.js"></script>
+	<script src="modalWindow.js"></script>
+</body>
+</html>
