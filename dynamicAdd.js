@@ -7,7 +7,7 @@ var projectNames=[
 		dirName: "counterApp",
 	},{
 		id: 3,
-		dirName: "FAQ",
+		dirName: "faq",
 	},{
 		id: 4,
 		dirName: "menuItems",
