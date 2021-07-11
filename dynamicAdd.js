@@ -8,11 +8,11 @@ var projectNames=[
 		dirName: "faq",
 		description: `A simple and elegant <a href="faq/index.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">FAQ</a> portal that answers the question as you want.`,
 	},{
-		id: 4,
+		id: 3,
 		dirName: "reviewsProject",
 		description: "Elegant reviews model that has a random review button too.",
 	},{
-		id: 3,
+		id: 4,
 		dirName: "colorFlipper",
 		description: `Play around with <a href="colorFlipper/index.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">just 5</a> or <a href="colorFlipper/hex.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">infinite colors</a>. Click the button named \"Flip the color\" and generate millions of colors along with their <a href="colorFlipper/hex.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">HEX</a> codes.`,
 	},{
