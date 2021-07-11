@@ -125,7 +125,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 25rem;
+	width: 18rem;
 	padding: 1.5rem 1.5rem;
 	border-radius: 5px;
 	background: rgba(168, 132, 78, 0.1);
@@ -154,13 +154,16 @@ main{
 		font-size: 1rem;
 	}
 	.project-item{
-		width: 30rem;
+		width: 32rem;
 	}
 }
 @media screen and (min-width: 1200px){
 	.section-center{
 		width: 90vw;
 		grid-template-columns: 1fr 1fr;
+	}
+	.project-item{
+		width: 28rem;
 	}
 }
 
