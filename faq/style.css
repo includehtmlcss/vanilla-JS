@@ -103,8 +103,9 @@ main{
 	background: #ffcb2910;
 }
 .section-center{
-	max-width: 50vw;
-	min-width: 500px;
+	width: 70vw;
+	max-width: 800px;
+	/* min-width: 500px; */
 }
 .question{
 	background: #ffcb2920;
