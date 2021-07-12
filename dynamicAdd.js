@@ -13,22 +13,26 @@ var projectNames=[
 		description: "Elegant reviews model that has a random review button too.",
 	},{
 		id: 4,
+		dirName: "videoProject",
+		description: "A header video project that has an awesome preloader if you're running on a slow network!",
+	},{
+		id: 5,
 		dirName: "colorFlipper",
 		description: `Play around with <a href="colorFlipper/index.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">just 5</a> or <a href="colorFlipper/hex.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">infinite colors</a>. Click the button named \"Flip the color\" and generate millions of colors along with their <a href="colorFlipper/hex.html" target="_blank" style="text-transform: uppercase; color: #ffcb10; font-weight: 600;">HEX</a> codes.`,
 	},{
-		id: 5,
+		id: 6,
 		dirName: "modalWindow",
 		description: "Click to open a modal window that tells you about me more!",
 	},{
-		id: 6,
+		id: 7,
 		dirName: "responsiveNavbar",
 		description: "As the name suggests, a responsive navigation menu bar.",
 	},{
-		id: 7,
+		id: 8,
 		dirName: "counterApp",
 		description: "Set the counter to your lucky number with the increase, reset, and decrease buttons!",
 	},{
-		id: 8,
+		id: 9,
 		dirName: "sideBar",
 		description: "As the name suggests, a responsive side menu bar.",
 	},
